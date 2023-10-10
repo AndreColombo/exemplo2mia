@@ -51,7 +51,7 @@ header {
   color: #ccc;
 }
 
-.Time {
+.time {
   display: flex;
   flex-direction: column;
   justify-content: center;
