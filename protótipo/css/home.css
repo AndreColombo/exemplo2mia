@@ -4,6 +4,12 @@ header {
   background-color: #157146;
 }
 
+/* ----------------- Classes ----------------- */
+
+header {
+  background-color: #157146;
+}
+
 h1 {
   font-size: 55px;
   font-weight: 750;
@@ -70,14 +76,14 @@ p{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-top: 75px;
+  padding-top: 5%;
 }
 
 .links {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 50px 0px;
+  padding: 5% 0px;
 }
 
 .blocoLink {

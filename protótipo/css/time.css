@@ -1,4 +1,11 @@
+/* ----------------- Nativos ----------------- */
+
+header {
+  background-color: #157146;
+}
+
 /* ----------------- Classes ----------------- */
+
 .button {
   background: #157146;
   color: white;
@@ -11,14 +18,14 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-top: 50px;
+  padding-top: 5%;
 }
 
 .links {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 70px 0px;
+  padding: 5% 0px;
 }
 
 .blocoLink {
@@ -29,4 +36,24 @@
 #linkEmail {
   padding: 7.5px;
   width: 275px;
+}
+
+
+
+.estrelas input[type="radio"] {
+  display: none;
+}
+.estrelas label i.fa:before {
+  content: "\f005";
+  color: #fc0;
+}
+.estrelas input[type="radio"]:checked ~ label i.fa:before {
+  color: #ccc;
+}
+
+.Time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
