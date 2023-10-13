@@ -2,9 +2,17 @@
 
 header {
   background-color: #157146;
+  padding: 0.75%;
+  margin-bottom: 2%;
 }
 
 /* ----------------- Classes ----------------- */
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .button {
   background: #157146;
@@ -14,6 +22,7 @@ header {
   border-radius: 5px;
   padding: 8px;
 }
+
 .contatos {
   display: flex;
   flex-direction: row;
@@ -38,22 +47,17 @@ header {
   width: 275px;
 }
 
-
+/* Estrelas (não funcionando ainda) */
 
 .estrelas input[type="radio"] {
   display: none;
 }
+
 .estrelas label i.fa:before {
   content: "\f005";
   color: #fc0;
 }
+
 .estrelas input[type="radio"]:checked ~ label i.fa:before {
   color: #ccc;
-}
-
-.time {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }

@@ -2,6 +2,7 @@
 
 header {
   background-color: #157146;
+  padding: 0.75%;
   margin-bottom: 2%;
 }
 
@@ -59,6 +60,7 @@ input[type="submit"] {
   border-radius: 5px;
   padding: 8px;
 }
+
 .contatos {
   display: flex;
   flex-direction: row;

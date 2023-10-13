@@ -15,7 +15,7 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <link rel="icon" href="icons/Fauna Guard.png" />
   </head>
   <body>
@@ -36,14 +36,14 @@
 
     <header>
       <div class="container">
-        <img src="imagens/LogoBranca.png" alt="Logo Fauna Guard" width="10%" />
+        <img src="images/LogoBranca.png" alt="Logo Fauna Guard" width="10%" />
       </div>
     </header>
 
     <main>
       <!-- ---------------------------------- Bloco 1 ---------------------------------- -->
 
-      <div class="container block">
+      <div class="container bloco">
         <div class="frases">
           <h1>
             Fique informado, <br />
@@ -58,7 +58,7 @@
             <input type="email" placeholder="Insira um E-mail" id="Email" />
             <input type="button" class="button" value="Registrar" />
           </div>
-          <p>
+          <p class="nota">
             Registre-se agora para contribuir no auxílio aos nossos amigos de
             quatro patas.
           </p>
@@ -66,17 +66,17 @@
 
         <img
           class="dogImg"
-          src="imagens/Dog01.png"
+          src="images/Dog01.png"
           alt="Imagem de um cachorro caramelo com um graveto na boca"
         />
       </div>
 
       <!-- ---------------------------------- Bloco 2 ---------------------------------- -->
 
-      <div class="container block">
+      <div class="container bloco">
         <img
           class="dogImg"
-          src="imagens/Dog02.png"
+          src="images/Dog02.png"
           alt="Imagem de um Rottweiler deitado com a língua para fora"
         />
         <div class="frases">
@@ -93,7 +93,7 @@
 
       <!-- ---------------------------------- Bloco 3 ---------------------------------- -->
 
-      <div class="container block">
+      <div class="container bloco">
         <div class="frases">
           <h1>Comunicação eficiente</h1>
           <h5>
@@ -105,15 +105,15 @@
 
         <img
           class="dogImg"
-          src="imagens/Dog03.png"
+          src="images/Dog03.png"
           alt="Imagem de um Pastor Alemão deitado com a língua para fora"
         />
       </div>
 
       <!-- ---------------------------------- Bloco 4 ---------------------------------- -->
 
-      <div class="container block">
-        <img class="dogImg" src="imagens/Dog04.png" alt="" />
+      <div class="container bloco">
+        <img class="dogImg" src="images/Dog04.png" alt="" />
         <div class="frases">
           <h1>Salve mais vidas</h1>
           <h5>
@@ -138,46 +138,39 @@
 
     <!-- ---------------------------------- Footer ---------------------------------- -->
 
-    <footer>
+    <footer class="container">
       <!-- ----------------- Contatos ----------------- -->
 
-      <div class="container">
-        <div class="contatos">
-          <p>(+55) 11 98765-4321</p>
-          <p>contato@faunaguard.org</p>
-          <p>Avenida da Esperança, 456</p>
+      <div class="contatos">
+        <p>(+55) 11 98765-4321</p>
+        <p>contato@faunaguard.org</p>
+        <p>Avenida da Esperança, 456</p>
+      </div>
+
+      <!-- ----------------- Links ----------------- -->
+
+      <div class="links">
+        <div class="blocoLink">
+          <h2>Sobre Nós</h2>
+          <a href="pages/historia.html">Nossa história</a>
+          <a href="pages/time.html">Nosso time</a>
         </div>
-
-        <!-- ----------------- Links ----------------- -->
-
-        <div class="links">
-          <div class="blocoLink">
-            <h2>Sobre Nós</h2>
-            <a href="pages/historia.html">Nossa história</a>
-            <a href="pages/time.html">Nosso time</a>
-          </div>
-          <div class="blocoLink">
-            <h2>Empresa</h2>
-            <a href="pages/contatos.html">Contatos</a>
-          </div>
-          <div class="blocoLink">
-            <h2>Parcerias</h2>
-            <a href="https://google.com">Google</a>
-            <a
-              href="https://music.youtube.com/watch?v=hQ_Z-10dXSE&feature=share"
-              >Ozzy Osbourne</a
-            >
-          </div>
-          <div class="blocoLink">
-            <h2>Inscreva-se</h2>
-            <div class="linkForm">
-              <input
-                type="email"
-                placeholder="Insira um E-mail"
-                id="linkEmail"
-              />
-              <input type="button" class="button" value="Inscrever" />
-            </div>
+        <div class="blocoLink">
+          <h2>Empresa</h2>
+          <a href="pages/contatos.html">Contatos</a>
+        </div>
+        <div class="blocoLink">
+          <h2>Parcerias</h2>
+          <a href="https://google.com">Google</a>
+          <a href="https://music.youtube.com/watch?v=hQ_Z-10dXSE&feature=share"
+            >Ozzy Osbourne</a
+          >
+        </div>
+        <div class="blocoLink">
+          <h2>Inscreva-se</h2>
+          <div class="linkForm">
+            <input type="email" placeholder="Insira um E-mail" id="linkEmail" />
+            <input type="button" class="button" value="Inscrever" />
           </div>
         </div>
       </div>
